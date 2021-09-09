@@ -5,7 +5,7 @@ function kelvinTocel(value) {
 
 class WeatherApi {
   constructor(city) {
-    this.apiKey = '8e238f908e32c841fc49dbc98c39bd72';
+    this.apiKey = 'enter api key';
     this.city = city
   }
 
