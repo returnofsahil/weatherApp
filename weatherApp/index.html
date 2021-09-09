@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="container--headings">
+        <h2 class="white " id="city">City</h2>
+        <h2 class="black " id="weather">weather</h2>
+        <h2 class='white' id="temp">42 C</h2>
+
+        <button id="changeLocation">Change Location</button>
+      </div>
+    </div>
+  </main>
+  <div class="modal-bg">
+    <div class="modal">
+      <h2>City</h2>
+      <label for='name'>Name</label>
+      <input type="text" id="something" name='name'>
+      <button id="close">Close</button>
+      <button id='save'>Save changes</button>
+    </div>
+  </div>
+  <script src="/js/weather.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
